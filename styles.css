@@ -404,22 +404,43 @@ section h2::after {
     color: #ffffff;
 }
 
-.education-item {
-    margin-bottom: 1.5rem;
-    padding-left: 1rem;
-    border-left: 3px solid #2563eb;
+.education-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.education-item h4 {
+.education-list li {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    border-left: 3px solid #2563eb;
+    position: relative;
+}
+
+.education-list li::before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 0.5rem;
+    width: 9px;
+    height: 9px;
+    background: #2563eb;
+    border-radius: 50%;
+    border: 2px solid #1f2937;
+}
+
+.education-list h4 {
     font-size: 1.2rem;
     font-weight: 600;
     color: #ffffff;
     margin-bottom: 0.5rem;
+    line-height: 1.4;
 }
 
-.education-item p {
+.education-list p {
     color: #e5e7eb;
     font-size: 0.95rem;
+    margin: 0;
 }
 
 .about-description p {
