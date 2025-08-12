@@ -1,0 +1,153 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 1000
+>>
+stream
+BT
+/F1 12 Tf
+72 720 Td
+(Ronith Gadiraju) Tj
+0 -20 Td
+(880 E Fremont Avenue, CA | +1(408)-210-0827 | ronith.gadiraju5@gmail.com | ronith-gadiraju | GitHub) Tj
+0 -30 Td
+(BUSINESS INTELLIGENCE ANALYST) Tj
+0 -20 Td
+(Summary) Tj
+0 -15 Td
+(Business Intelligence Analyst with hands-on experience in SQL-driven data pipelines and Python-based analysis.) Tj
+0 -15 Td
+(Proven success in designing dashboards that drive operational insights and enhance data integrity.) Tj
+0 -15 Td
+(Demonstrated ability to collaborate with cross-functional teams to improve reporting accuracy and optimize workflows.) Tj
+0 -15 Td
+(Skilled in leveraging BI tools such as Tableau to support strategic decision-making.) Tj
+0 -30 Td
+(Education) Tj
+0 -15 Td
+(BITS Pilani Hyderabad, India 2020 - 2024) Tj
+0 -15 Td
+(BACHELOR OF ENGINEERING (HONS.), ELECTRONICS & INSTRUMENTATION, FINANCE MINOR) Tj
+0 -30 Td
+(Work Experience) Tj
+0 -15 Td
+(Lotus Labs Inc Oct 2024 - Feb 2025) Tj
+0 -15 Td
+(JUNIOR DATA ENGINEER Arizona, USA) Tj
+0 -15 Td
+(• Reviewed and secured database connections to AWS accounts, ensuring reliable access and data integrity.) Tj
+0 -15 Td
+(• Utilized AWS Glue to extract both structured and unstructured data, supporting comprehensive data analysis.) Tj
+0 -15 Td
+(• Addressed client requirements using AWS Data Analysis and Data Science tools, contributing to system enhancements.) Tj
+0 -15 Td
+(• Collaborated with senior engineers to optimize data workflows and improve query performance using Amazon Athena and AWS S3.) Tj
+0 -30 Td
+(EXCELR Dec 2023 - Feb 2024) Tj
+0 -15 Td
+(DATA ANALYST, INTERN Hyderabad, India) Tj
+0 -15 Td
+(• Engineered a movie recommendation system by blending collaborative and content-based filtering algorithms.) Tj
+0 -15 Td
+(• Conducted exploratory data analysis (EDA) on over 15,000 data points, leading to a 30% increase in click-through rates.) Tj
+0 -15 Td
+(• Evaluated recommendation algorithms using metrics such as precision, recall, and F1-score, achieving 82% accuracy.) Tj
+0 -15 Td
+(• Managed project timelines using Agile methodologies, ensuring efficient completion and deployment.) Tj
+0 -15 Td
+(• Leveraged Power BI to extract actionable insights and visualize recommendation performance.) Tj
+0 -30 Td
+(PIEDS - Pilani Innovation and Entrepreneurship and Development Society Aug 2023 - Dec 2023) Tj
+0 -15 Td
+(FINANCE ANALYST, INTERN Pilani, India) Tj
+0 -15 Td
+(• Performed in-depth financial analysis of quarterly performance metrics, contributing to a 15% reduction in overhead costs.) Tj
+0 -15 Td
+(• Assisted in budget preparation and financial forecasting using Weighted Average Cost of Capital (WACC) methodologies.) Tj
+0 -15 Td
+(• Conducted comprehensive cost analyses and identified opportunities for savings, enhancing operational efficiency.) Tj
+0 -30 Td
+(International Red Cross Society Jul 2021 - Oct 2021) Tj
+0 -15 Td
+(SOFTWARE ENGINEER, INTERN Hyderabad, India) Tj
+0 -15 Td
+(• Diagnosed and resolved over 15 critical software bugs to enhance application stability and performance.) Tj
+0 -15 Td
+(• Executed unit, integration, and user acceptance testing to verify software quality and reliability.) Tj
+0 -15 Td
+(• Participated actively in Agile development processes, including daily stand-ups, sprint planning, and retrospectives.) Tj
+0 -30 Td
+(Professional Skills) Tj
+0 -15 Td
+(• Programming Languages: C, C++, Python, SQL, CSS, R) Tj
+0 -15 Td
+(• Packages: Matplotlib, Statsmodels, OpenCV, Seaborn, Scikit-learn, Pandas, SpaCy, Gensim, Airflow, SPSS, STATA, SAS) Tj
+0 -15 Td
+(• Tools: Tableau, Jupyter notebook, VBA, Power BI, Trello, Microsoft Excel, Microsoft Office, Data Analysis) Tj
+0 -30 Td
+(Certifications) Tj
+0 -15 Td
+(• Machine Learning - Level 1: IBM May 2024) Tj
+0 -15 Td
+(• AI for Everyone: DeepLearning.AI July 2024) Tj
+0 -15 Td
+(• Foundations of Business Intelligence: Google Certification July 2025) Tj
+0 -15 Td
+(• The Path to Insights: Data Models and Pipelines: Google Certification July 2025) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000214 00000 n 
+0000001234 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+1294
+%%EOF
