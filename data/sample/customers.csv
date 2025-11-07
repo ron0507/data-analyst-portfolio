@@ -1,0 +1,6 @@
+customer_id,first_name,last_name,email,country,signup_date,total_spend
+1001,Ada,Lovelace,ada.lovelace@example.com,UK,2024-02-15,18250.50
+1002,Alan,Turing,alan.turing@example.com,UK,2024-03-12,14100.75
+1003,Grace,Hopper,grace.hopper@example.com,US,2024-04-03,21200.00
+1004,Katherine,Johnson,katherine.johnson@example.com,US,2024-06-21,9800.15
+1005,Claude,Shannon,claude.shannon@example.com,US,2024-07-08,13450.30
