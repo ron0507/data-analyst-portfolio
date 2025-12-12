@@ -239,21 +239,26 @@ body {
 }
 
 .btn-primary:hover {
-    background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 50%, #e91e63 100%);
-    transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+    background: linear-gradient(135deg, #5a6fd8 0%, #6b4ac1 50%, #e85fb8 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 15px 35px rgba(102, 126, 234, 0.5);
+    filter: brightness(1.1);
 }
 
 .btn-secondary {
     background: transparent;
     color: white;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
 }
 
 .btn-secondary:hover {
-    background: white;
-    color: #2563eb;
-    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 1);
+    transform: translateY(-3px);
+    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
 }
 
 /* Social Media Widgets */
@@ -272,9 +277,10 @@ body {
     border-radius: 12px;
     padding: 1rem 1.5rem;
     border: 2px solid rgba(255, 255, 255, 0.3);
-    transition: all 0.3s ease;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .social-widget::before {
@@ -293,10 +299,10 @@ body {
 }
 
 .social-widget:hover {
-    transform: translateY(-5px);
-    background: rgba(0, 0, 0, 0.9);
-    border-color: rgba(255, 255, 255, 0.6);
-    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+    background: rgba(0, 0, 0, 0.85);
+    border-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 15px 35px rgba(102, 126, 234, 0.3);
 }
 
 .social-link {
@@ -330,13 +336,19 @@ body {
 }
 
 .social-widget:hover .social-link i {
-    transform: scale(1.1);
+    transform: scale(1.15);
+    background: linear-gradient(135deg, #667eea, #764ba2, #f093fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 4px 12px rgba(102, 126, 234, 0.4));
 }
 
 .social-widget:hover .social-link span {
     opacity: 1;
     color: #ffffff;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
+    transform: scale(1.05);
 }
 
 /* Section Styles */
