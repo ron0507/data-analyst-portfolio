@@ -26,9 +26,9 @@ A professional portfolio website showcasing my skills and experience in Business
 - GitHub: [ron0507](https://github.com/ron0507)
 
 ## 🎯 Professional Focus
+- Software Developer
 - Business Intelligence Analyst
 - Data Analyst
-- Business Analyst
-- Power BI, SQL, Python
+- FastAPI, Power BI, SQL, Python
 - AWS Cloud Services
 - Machine Learning

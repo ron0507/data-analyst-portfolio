@@ -1,0 +1,12 @@
+# AWS SDK for Python
+boto3>=1.34.0
+
+# Additional useful packages for data lake operations
+pandas>=2.0.0
+pyarrow>=14.0.0
+
+# Development and testing
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+
