@@ -950,7 +950,9 @@ section h2::after {
 .project-card p {
     color: #e5e7eb !important;
     margin-bottom: 1.5rem;
-    line-height: 1.6;
+    line-height: 1.7;
+    font-size: 0.95rem;
+    text-align: left;
 }
 
 .project-tags {
