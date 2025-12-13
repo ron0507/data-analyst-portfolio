@@ -728,6 +728,53 @@ section h2::after {
     position: relative;
 }
 
+.company-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.company-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.company-logo:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.company-icon {
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.company-logo:hover .company-icon {
+    transform: scale(1.1);
+}
+
+.company-info {
+    flex: 1;
+}
+
+.company-info h4 {
+    margin-bottom: 0.25rem;
+}
+
+.company-info p {
+    margin: 0;
+}
+
 .experience::before {
     content: '';
     position: absolute;
@@ -1074,13 +1121,33 @@ section h2::after {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
-.certification-item i {
-    font-size: 2.5rem;
-    background: linear-gradient(135deg, #667eea, #764ba2, #f093fb);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 1rem;
+.cert-company-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    margin: 0 auto 1rem auto;
+}
+
+.cert-company-logo:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.cert-company-logo i {
+    font-size: 1.8rem;
+    transition: all 0.3s ease;
+}
+
+.cert-company-logo:hover i {
+    transform: scale(1.1);
 }
 
 .certification-item h3 {
@@ -1486,9 +1553,42 @@ section h2::after {
     }
 }
 
+@media (max-width: 768px) {
+    .company-logo {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .company-icon {
+        font-size: 1.3rem;
+    }
+    
+    .cert-company-logo {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .cert-company-logo i {
+        font-size: 1.5rem;
+    }
+}
+
 @media (max-width: 480px) {
     .container {
         padding: 0 15px;
+    }
+    
+    .company-header {
+        gap: 0.75rem;
+    }
+    
+    .company-logo {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .company-icon {
+        font-size: 1.2rem;
     }
     
     .hero h1 {
