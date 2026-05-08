@@ -20,6 +20,12 @@
                 if (target) {
                     e.preventDefault();
                     smoothScrollToHash(href);
+                    if (href === "#main") {
+                        const main = document.getElementById("main");
+                        window.setTimeout(() => {
+                            main?.focus({ preventScroll: true });
+                        }, 450);
+                    }
                 }
             });
         });

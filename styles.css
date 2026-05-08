@@ -35,6 +35,26 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+.skip-link {
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+    z-index: 10001;
+    padding: 0.65rem 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--bg-deep);
+    background: var(--accent);
+    border-radius: 8px;
+    text-decoration: none;
+    outline-offset: 2px;
+}
+
+.skip-link:focus {
+    top: 0.75rem;
+}
+
 .container {
     max-width: 1120px;
     margin: 0 auto;
