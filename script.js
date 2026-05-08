@@ -175,45 +175,9 @@
         }
     }
 
-    function animateCounter(el, target, duration) {
-        const start = performance.now();
-        const from = 0;
-        function frame(now) {
-            const t = Math.min(1, (now - start) / duration);
-            const eased = 1 - Math.pow(1 - t, 3);
-            el.textContent = Math.round(from + (target - from) * eased);
-            if (t < 1) requestAnimationFrame(frame);
-            else el.textContent = String(target);
-        }
-        requestAnimationFrame(frame);
-    }
-
-    function initImpactCounters() {
-        const counters = document.querySelectorAll(".counter[data-target]");
-        if (!counters.length) return;
-
-        const obs = new IntersectionObserver(
-            (entries) => {
-                entries.forEach((entry) => {
-                    if (!entry.isIntersecting) return;
-                    const el = entry.target;
-                    const raw = el.getAttribute("data-target");
-                    const target = parseInt(raw, 10);
-                    if (!Number.isFinite(target)) return;
-                    obs.unobserve(el);
-                    animateCounter(el, target, 1100);
-                });
-            },
-            { threshold: 0.35 }
-        );
-
-        counters.forEach((c) => obs.observe(c));
-    }
-
     document.addEventListener("DOMContentLoaded", () => {
         document.documentElement.classList.add("js-reveal");
         initNav();
         initRevealAnimations();
-        initImpactCounters();
     });
 })();
